@@ -285,3 +285,10 @@ class UserDepartmentEnum:
         SALES = [3, "Sales"]
         MARKETING = [4, "Marketing"]
         DESIGN = [5, "Design"]
+
+
+@choices
+class PaymentGatewayEnum:
+    class Meta:
+        STRIPE = [1, "Stripe"]
+        RAZORPAY = [2, "Razorpay"]
